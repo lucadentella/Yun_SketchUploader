@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" type="text/css" href="/luci-static/resources/arduino/style.ugly.css" />
+  <title>Y&uacute;n</title>
+</head>
+<body>
+
+<div id="container">
+  <div id="header">
+    <div class="wrapper">
+      <h1>Y&uacute;n</h1>
+      <div id="logo"><img src="/luci-static/resources/arduino/logo.png" alt="Y&uacute;n"/></a></div>
+      <div id="logophone"><img src="/luci-static/resources/arduino/logo_phone.png" alt="Y&uacute;n"/></a></div>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="wrapper divide">
+      <p>Welcome to your Arduino Y&uacute;n. Please enter password to access the sketchUploader</p>
+    </div>
+    <div class="wrapper divide" id="login_container">
+      <form id="form1" name="form1" action="php/sketchuploader.php" method="post">
+        <ul>
+          <li>
+            <label for="password">
+              Password
+            </label>
+            <div class="input_container">
+              <input id="password" name="password" type="password" value="" maxlength="255" tabindex="4" required="">
+              <p class="input_message">Please be sure you have cookies enabled before proceeding.</p>
+            </div>
+          </li>
+          <li>
+            <div class="input_container">
+              <input class="btTxt submit saveForm" type="submit" value="Log in" tabindex="6">
+            </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+
+  <br class="clear"/>
+</div>
+</body>
+</html>

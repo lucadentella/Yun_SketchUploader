@@ -1,0 +1,59 @@
+img.icon {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+div.line {
+	width: 100%;
+	height: 70px;
+	display: table;
+}
+
+div.lineleft {
+	//width: 50%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 70px;	
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+white-space: nowrap;
+}
+
+div.lineright {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+
+div.inputWrapper {
+	width: 40px;
+	height: 70px;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	background-image: url('../img/upload.png');
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.right {
+	float: right;
+}
+
+.fileInput {
+	cursor: pointer;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	right: 0;
+	font-size:50px;	
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
